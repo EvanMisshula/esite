@@ -1,0 +1,46 @@
+name: Evan's site
+markdown: redcarpet
+pygments: true
+
+
+lsi: false
+poole:
+  word_separator: "-"
+
+
+safe: false
+
+#bootstrap: "http://www.cinsk.org/bootstrap"
+#prettify: "http://www.cinsk.org/bootstrap"
+#jquery: "http://www.cinsk.org/bootstrap/js/jquery.js"
+
+#bootstrap: "http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2"
+#prettify: "http://cdnjs.cloudflare.com/ajax/libs/prettify/r224"
+
+bootstrap: "http://some.place.com/bootstrap"
+prettify: "org/js/bootstrap.min.js"
+jquery: "org/js/jquery-1.9.1.min.js"
+
+# 'label' is the short label of the index.html where it appears in the
+# top-right corner of all pages
+label: "Evan's site"
+
+topnav-list: [ "index", "Academic", "contact", "pg1" ]
+
+source: "/home/evan/esite/psite"
+destination: "/home/evan/esite/_site"
+
+
+article_layouts: [ "org" ]
+
+# relative pathname to the directory that contains ".html" files
+# which are generated from ".org"
+orgsource: "_posts"
+
+# relative pathname to DESTINATION where Org generated .html files.
+# that is, SRC/ORGSOURCE/*.org -> DESTINATION/ORGDESTINATION/*.html
+orgdestination: "_posts"
+
+linguas:
+- :label: English
+  :tag: en
