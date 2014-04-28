@@ -31,8 +31,11 @@ lead: Academic progress of Evan
 
 ** Research Associate, RF CUNY, February 2010 - May 2013
 
-   - Conducted original research on public health and criminal justice issues including prison simulation, suicide, domestic violence supported by NIH and NSF.
-   - Conducted original research on detecting causal relations supported by CUNY Advanced Research Collaborative.
+   - Conducted original research on public health and criminal justice
+     issues including prison simulation, suicide, domestic violence
+     supported by NIH and NSF.
+   - Conducted original research on detecting causal relations
+     supported by CUNY Advanced Research Collaborative.
 
 ** Summer Fellow, Data Science Summer Institute, University of Illinois Urbana Champaigne
 
@@ -60,4 +63,4 @@ lead: Academic progress of Evan
 
 
 
-
+   

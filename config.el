@@ -2,13 +2,13 @@
 (setq org-publish-project-alist
       '(
 
-  ("org-notes-evsite"
+  ("org-notes-esite"
           ;; Path to your org files.
-          :base-directory "~/evsite/org/"
+          :base-directory "~/esite/org/"
           :base-extension "org"
 
           ;; Path to your Jekyll project.
-          :publishing-directory "~/evsite/psite/"
+          :publishing-directory "~/esite/psite/"
           :recursive t
           :publishing-function org-md-publish-to-md
           :headline-levels 4 
@@ -18,12 +18,12 @@
     )
 
 
-    ("org-static-evsite"
-          :base-directory "~/evsite/org/"
+    ("org-static-esite"
+          :base-directory "~/esite/org/"
           :base-extension "css\\|js\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-          :publishing-directory "~/evsite/_site"
+          :publishing-directory "~/esite/_site"
           :recursive t
           :publishing-function org-publish-attachment)
 
-    ("evsite" :components ("org-notes-evsite" "org-static-evsite"))
+    ("esite" :components ("org-notes-esite" "org-static-esite"))
 ))
