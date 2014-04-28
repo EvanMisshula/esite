@@ -1,0 +1,22 @@
+\documentclass{article} 
+
+\usepackage[style=authoryear,maxbibnames=99,citestyle=alphabetic,sorting=nty]{biblatex} 
+
+\usepackage[autostyle]{csquotes}
+
+\usepackage[
+    backend=biber,
+    style=authoryear-icomp,
+    sorting=nty,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false
+]{biblatex}
+\addbibresource{citations.bib}
+
+\begin{document} 
+Hello\cite{dombrowski2013out}
+\nocite{*}
+\printbibliography 
+\end{document} 

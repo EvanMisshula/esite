@@ -1,0 +1,5 @@
+#+TITLE: Sitemap
+
+   + [[file:index.org][Evan's site]]
+   + [[file:contact.org][Evan's site]]
+   + [[file:Academic.org][Evan's site]]

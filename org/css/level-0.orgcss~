@@ -1,0 +1,19 @@
+#+TITLE: Evan's site
+
+#+AUTHOR: Evan Misshula
+
+#+EMAIL: emisshula@jjay.cuny.edu
+#+BEGIN_HTML
+---
+layout: default
+title: Evan's site
+excerpt: Intro to Evan
+---
+#+END_HTML
+
+#+STYLE: <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+#+STYLE: <link href="css/org.css" rel="stylesheet" type="text/css">
+
+#+LINK_HOME: index.html
+#+LINK_UP: index.html
+#+INFOJS_OPT: path:js/org-info.js view:showall toc:nil ltoc:nil tdepth:2 mouste:#dddddd

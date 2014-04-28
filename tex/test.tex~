@@ -1,0 +1,7 @@
+\documentclass{article} 
+\usepackage{biblatex} 
+\bibliography{citations} 
+\begin{document} 
+Hello\cite{KandR}
+\printbibliography 
+\end{document} 

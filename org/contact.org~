@@ -1,0 +1,17 @@
+#+OPTIONS: toc:nil
+#+BEGIN_MARKDOWN
+---
+layout: default
+title: Evan's site
+excerpt: Intro to Evan
+---
+#+END_MARKDOWN
+
+[[file:index.org][Evan]]
+[[file:Academic.org][Academic]]
+[[file:contact.org][contact]]
+
+  - Email: EMisshula(at)jjay(dot)cuny(dot)edu
+  - Twitter: @EMisshula
+  - Blog: https://mofj.commons.gc.cuny.edu/
+  - Github: https://github.com/EvanMisshula

@@ -1,0 +1,14 @@
+[0] Config.pm:300> INFO - This is Biber 0.9.9
+[1] Config.pm:303> INFO - Logfile is 'test.blg'
+[2] biber:145> INFO - === Mon Apr 28, 2014, 15:15:22
+[2] Biber.pm:271> INFO - Reading 'test.bcf'
+[16] Biber.pm:570> INFO - Using all citekeys in bib section 0
+[23] Biber.pm:2585> INFO - Processing bib section 0
+[38] Biber.pm:2677> INFO - Looking for bibtex format file 'citations.bib' for section 0
+[39] bibtex.pm:704> INFO - Found BibTeX data source 'citations.bib'
+[151] Biber.pm:2480> INFO - Sorting list 'MAIN' keys
+[151] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[171] Biber.pm:2480> INFO - Sorting list 'SHORTHANDS' keys
+[171] Biber.pm:2484> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[180] bbl.pm:427> INFO - Writing 'test.bbl' with encoding 'ascii'
+[181] bbl.pm:498> INFO - Output to test.bbl

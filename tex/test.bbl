@@ -1,0 +1,247 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% $ biber version 0.9.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber or bibtex as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \entry{dombrowski2013out}{article}{}
+    \name{labelname}{5}{uniquelist=2}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=ab8be7a4102da42e2c9d90caad99c36e}{Channell}{C\bibinitperiod}{Emily}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=f0258d7cd1f0bd99f1c49cf64aba6de2}{Moses}{M\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{uniquelist=2}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=ab8be7a4102da42e2c9d90caad99c36e}{Channell}{C\bibinitperiod}{Emily}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=f0258d7cd1f0bd99f1c49cf64aba6de2}{Moses}{M\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Hindawi Publishing Corporation}%
+    }
+    \strng{namehash}{2b9ae596042fd6789164f845f0e6e7dc}
+    \strng{fullhash}{4a41b3d5e855443b117235ffede5c41a}
+    \field{sortinit}{D}
+    \field{labelyear}{2013}
+    \field{journaltitle}{Journal of Anthropology}
+    \field{title}{Out on the land: income, subsistence activities, and food sharing networks in Nain, Labrador}
+    \field{volume}{2013}
+    \field{year}{2013}
+  \endentry
+
+  \entry{dombrowski2013kinship}{article}{}
+    \name{labelname}{6}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=ab8be7a4102da42e2c9d90caad99c36e}{Channell}{C\bibinitperiod}{Emily}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=f0258d7cd1f0bd99f1c49cf64aba6de2}{Moses}{M\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=4dca69a676a5cef4b1b2607e7182bedd}{McLean}{M\bibinitperiod}{Kate}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{6}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=ab8be7a4102da42e2c9d90caad99c36e}{Channell}{C\bibinitperiod}{Emily}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=f0258d7cd1f0bd99f1c49cf64aba6de2}{Moses}{M\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=4dca69a676a5cef4b1b2607e7182bedd}{McLean}{M\bibinitperiod}{Kate}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {University of Wisconsin Press}%
+    }
+    \strng{namehash}{b9ce4601ef0b9de4e24d2b58b329ed52}
+    \strng{fullhash}{aca8b84119f94d5265ebf6d28f3633f0}
+    \field{sortinit}{D}
+    \field{labelyear}{2013}
+    \field{journaltitle}{Arctic Anthropology}
+    \field{number}{1}
+    \field{title}{Kinship, family, and exchange in a labrador inuit community}
+    \field{volume}{50}
+    \field{year}{2013}
+    \field{pages}{89\bibrangedash 104}
+  \endentry
+
+  \entry{dombrowski2013reexamination}{article}{}
+    \name{labelname}{7}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=b9fda19aaf0ce0a17a8a04e97a0c5f20}{McLean}{M\bibinitperiod}{Katherine}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=98f29f58fb162c6a44fa884f871e1919}{Curtis}{C\bibinitperiod}{Ric}{R\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=34eb9fcbaf5c37e42a24b761f9496b77}{Wendel}{W\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=761969adf61d25c32af4dea7dd5f0583}{Friedman}{F\bibinitperiod}{Samuel}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{7}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=b9fda19aaf0ce0a17a8a04e97a0c5f20}{McLean}{M\bibinitperiod}{Katherine}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=98f29f58fb162c6a44fa884f871e1919}{Curtis}{C\bibinitperiod}{Ric}{R\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=34eb9fcbaf5c37e42a24b761f9496b77}{Wendel}{W\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=761969adf61d25c32af4dea7dd5f0583}{Friedman}{F\bibinitperiod}{Samuel}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Informa Healthcare New York}%
+    }
+    \strng{namehash}{880545cf9a3914de4d2fc078f5423404}
+    \strng{fullhash}{be377a6005f7e77d898a910f0d79df4a}
+    \field{sortinit}{D}
+    \field{labelyear}{2013}
+    \field{journaltitle}{Substance use \& misuse}
+    \field{number}{14}
+    \field{title}{A Reexamination of Connectivity Trends via Exponential Random Graph Modeling in Two IDU Risk Networks}
+    \field{volume}{48}
+    \field{year}{2013}
+    \field{pages}{1485\bibrangedash 1497}
+  \endentry
+
+  \entry{dombrowski2013assessing}{article}{}
+    \name{labelname}{5}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=f0258d7cd1f0bd99f1c49cf64aba6de2}{Moses}{M\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=ab8be7a4102da42e2c9d90caad99c36e}{Channell}{C\bibinitperiod}{Emily}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=f0258d7cd1f0bd99f1c49cf64aba6de2}{Moses}{M\bibinitperiod}{Joshua}{J\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=ab8be7a4102da42e2c9d90caad99c36e}{Channell}{C\bibinitperiod}{Emily}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Scientific Research Publishing}%
+    }
+    \strng{namehash}{0a079ff0d3d802c67c96fcc20a75ebd6}
+    \strng{fullhash}{55d731e5c8c20a3ee08be06ad48534f6}
+    \field{sortinit}{D}
+    \field{labelyear}{2013}
+    \field{journaltitle}{Advances in Anthropology}
+    \field{title}{Assessing respondent driven sampling for network studies in ethnographic contexts}
+    \field{volume}{3}
+    \field{year}{2013}
+    \field{pages}{1}
+  \endentry
+
+  \entry{dombrowski2012estimating}{article}{}
+    \name{labelname}{6}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=1,hash=34eb9fcbaf5c37e42a24b761f9496b77}{Wendel}{W\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=b9fda19aaf0ce0a17a8a04e97a0c5f20}{McLean}{M\bibinitperiod}{Katherine}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=98f29f58fb162c6a44fa884f871e1919}{Curtis}{C\bibinitperiod}{Ric}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{6}{uniquelist=3}{%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=1,hash=34eb9fcbaf5c37e42a24b761f9496b77}{Wendel}{W\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=b9fda19aaf0ce0a17a8a04e97a0c5f20}{McLean}{M\bibinitperiod}{Katherine}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=98f29f58fb162c6a44fa884f871e1919}{Curtis}{C\bibinitperiod}{Ric}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Scientific Research Publishing}%
+    }
+    \strng{namehash}{3e5a7ed2dd5fc982d23451b69f93e8c5}
+    \strng{fullhash}{4d25b1658a6a479b4000b6a2fdae565b}
+    \field{sortinit}{D}
+    \field{labelyear}{2012}
+    \field{journaltitle}{Advances in Applied Sociology}
+    \field{title}{Estimating the size of the methamphetamine-using population in New York City using network sampling techniques}
+    \field{volume}{2}
+    \field{year}{2012}
+    \field{pages}{245}
+  \endentry
+
+  \entry{misshula2010personal}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Springer Netherlands}%
+    }
+    \strng{namehash}{9b10143ea598332e562f7650ee9eb34a}
+    \strng{fullhash}{9b10143ea598332e562f7650ee9eb34a}
+    \field{sortinit}{M}
+    \field{labelyear}{2010}
+    \field{journaltitle}{Dialectical anthropology}
+    \field{number}{4}
+    \field{title}{A personal statement on my court involvement}
+    \field{volume}{34}
+    \field{year}{2010}
+    \field{pages}{519\bibrangedash 523}
+  \endentry
+
+  \entry{misshula2012can}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{9b10143ea598332e562f7650ee9eb34a}
+    \strng{fullhash}{9b10143ea598332e562f7650ee9eb34a}
+    \field{sortinit}{M}
+    \field{labelyear}{2012}
+    \field{title}{Can post-incarceration restrictions on association be made ethical?}
+    \field{year}{2012}
+  \endentry
+
+  \entry{wendel2011dynamics}{book}{}
+    \name{labelname}{8}{}{%
+      {{uniquename=1,hash=3962bf101a5bf1f51ea8fe22e47bed6d}{Wendel}{W\bibinitperiod}{John\bibnamedelima Travis}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=98f29f58fb162c6a44fa884f871e1919}{Curtis}{C\bibinitperiod}{Ric}{R\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=b9fda19aaf0ce0a17a8a04e97a0c5f20}{McLean}{M\bibinitperiod}{Katherine}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=337749464d0b2be67f7fe2e7dbdcf849}{Riggs}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=6da68177198750b6ff3b9f5bdd387f07}{Marshall\bibnamedelima IV}{M\bibinitperiod\bibinitdelim I\bibinitperiod}{David\bibnamedelima M}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{8}{}{%
+      {{uniquename=1,hash=3962bf101a5bf1f51ea8fe22e47bed6d}{Wendel}{W\bibinitperiod}{John\bibnamedelima Travis}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9e116c2742c0f51954d2ac7da33421da}{Khan}{K\bibinitperiod}{Bilal}{B\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=a48f2b9b1ece79e77c066b71673bc221}{Dombrowski}{D\bibinitperiod}{Kirk}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=98f29f58fb162c6a44fa884f871e1919}{Curtis}{C\bibinitperiod}{Ric}{R\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=b9fda19aaf0ce0a17a8a04e97a0c5f20}{McLean}{M\bibinitperiod}{Katherine}{K\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=9b10143ea598332e562f7650ee9eb34a}{Misshula}{M\bibinitperiod}{Evan}{E\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=337749464d0b2be67f7fe2e7dbdcf849}{Riggs}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=6da68177198750b6ff3b9f5bdd387f07}{Marshall\bibnamedelima IV}{M\bibinitperiod\bibinitdelim I\bibinitperiod}{David\bibnamedelima M}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {John Jay College of Criminal Justice}%
+    }
+    \strng{namehash}{519a32825025f5434f143356c0c7dd47}
+    \strng{fullhash}{cb1d162d453e6bd7c6d72dcc30a00118}
+    \field{sortinit}{W}
+    \field{labelyear}{2011}
+    \field{title}{Dynamics of Methamphetamine Markets in New York City: Final Technical Report to the National Institute of Justice}
+    \field{year}{2011}
+  \endentry
+
+\endrefsection
+\endinput
+
