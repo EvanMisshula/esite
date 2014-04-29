@@ -10,57 +10,67 @@ lead: Academic progress of Evan
 #+END_MARKDOWN
 
 
-* Professional experience
-** Publications
-  - /Out on the land: income, subsistence activities, and food sharing networks in Nain, Labrador/. In: [[http://www.hindawi.com/journals/janthro/2013/185048/][Journal of Anthropology]] 2013.
-  - /Kinship, family, and exchange in a labrador inuit community/. In: [[http://www.hindawi.com/journals/janthro/2013/185048/][Arctic Anthropology]] 50.1, pp. 89–104.  
-  - /A Reexamination of Connectivity Trends via Exponential Random Graph Modeling in Two IDU Risk Networks/, in [[http://informahealthcare.com/doi/abs/10.3109/10826084.2013.796987][Substance Use & Misuse]]. 2013.
-  - /Assessing respondent driven sampling for network studies in ethnographic contexts/. In: [[http://www.scirp.org/journal/PaperInformation.aspx?paperID%3D28483][Advances in Anthropology]] 3, p. 1.
-  - /Estimating the Size of the Methamphetamine-Using Population in New York City Using Network Sampling Techniques/, in [[http://www.scirp.org/journal/PaperInformation.aspx?paperID%3D25389][Adv. in Applied Sociology]]. 2012.
-  - /Dynamics of Methamphetamine Markets in New York City/, in [[https://www.ncjrs.gov/pdffiles1/nij/grants/236122.pdf][Final Technical Report to the National Institute of Justice]]. 2011.
-** Data Scientist, July 2012 - Present
 
-  - Measured Propensity for violence in young men in neghborhoods of concentrated disadvantage funded by NYC Council.
-  - Created web mapping tools using d3, TileMill and Leaflet for anti-violence project funded by Robert Wood Johnson Foundation
-  - Estimated prison populations using ARIMA and queuing theory funded by Pew Charitable Trust 
+* Publications
+ - /Out on the land: income, subsistence activities, and food sharing networks in Nain, Labrador/. In: [[http://www.hindawi.com/journals/janthro/2013/185048/][Journal of Anthropology]] 2013.
+ - /Kinship, family, and exchange in a labrador inuit community/. In: [[http://www.hindawi.com/journals/janthro/2013/185048/][Arctic Anthropology]] 50.1, pp. 89–104.  
+ - /A Reexamination of Connectivity Trends via Exponential Random Graph Modeling in Two IDU Risk Networks/, in [[http://informahealthcare.com/doi/abs/10.3109/10826084.2013.796987][Substance Use & Misuse]]. 2013.
+ - /Assessing respondent driven sampling for network studies in ethnographic contexts/. In: [[http://www.scirp.org/journal/PaperInformation.aspx?paperID%3D28483][Advances in Anthropology]] 3, p. 1.
+ - /Estimating the Size of the Methamphetamine-Using Population in New York City Using Network Sampling Techniques/, in [[http://www.scirp.org/journal/PaperInformation.aspx?paperID%3D25389][Adv. in Applied Sociology]]. 2012.
+ - /Dynamics of Methamphetamine Markets in New York City/, in [[https://www.ncjrs.gov/pdffiles1/nij/grants/236122.pdf][Final Technical Report to the National Institute of Justice]]. 2011.
+* Data Scientist
+** [[http://johnjayresearch.org/rec/][John Jay Research and Evaluation Center]]
+*** July 2012 - Present
 
-** Fellow, Data Science for Social Good, University of Chicago, Summer 2013
+   - Measured Propensity for violence in young men in neghborhoods of concentrated disadvantage funded by NYC Council.
+   - Created web mapping tools using d3, TileMill and Leaflet for anti-violence project funded by Robert Wood Johnson Foundation
+   - Estimated prison populations using ARIMA and queuing theory funded by Pew Charitable Trust 
 
-   - Developed neighborhood and property analytics software for Cook County Landbank delivered as a Django python application
-   - Integrated mapping, economic and demographic data
+* Fellow  
+** [[http://dssg.io/][Data Science for Social Good]], U.Chicago
+*** Summer 2013
 
-** Research Associate, RF CUNY, February 2010 - May 2013
+    - Developed neighborhood and property analytics software for Cook County Landbank delivered as a Django python application
+    - Integrated mapping, economic and demographic data
+      
+* Research Associate
+** RF CUNY
+*** February 2010 - May 2013
 
-   - Conducted original research on public health and criminal justice
-     issues including prison simulation, suicide, domestic violence
-     supported by NIH and NSF.
-   - Conducted original research on detecting causal relations
-     supported by CUNY Advanced Research Collaborative.
+    - Conducted original research on public health and criminal justice
+      issues including prison simulation, suicide, domestic violence
+      supported by NIH and NSF.
+    - Conducted original research on detecting causal relations
+      supported by CUNY Advanced Research Collaborative.
+      
+* Data Science Summer Fellow
 
-** Summer Fellow, Data Science Summer Institute, University of Illinois Urbana Champaigne
+** [[http://mias.illinois.edu/DSSI2010][DSSI]], UofI Urbana-Champaigne
 
-   - Worked on a Web and iPhone Application for crime mapping and safe routing
-   - Funded by the US Department of Homeland Security
+*** Summer 2009
 
-** Skills
+    - Worked on a Web and iPhone Application for crime mapping and safe routing
+    - Funded by the US Department of Homeland Security
 
-   - Compiled Languages: C, C++, Java
-   - Scripted Languages: R, Python, JavaScript, LaTeX, Ruby, PHP, SPSS
-   - Libraries: D3.js, Leaflet.js, ggplot2, Django, Rails, Postgres, MySql
-   - Operating Systems: Windows, Mac OS X, Linux, UNIX, Bash, Powershell
+* Skills
 
-** Awards, Honors and Grants
+  - Compiled Languages: C, C++, Java
+  - Scripted Languages: R, Python, JavaScript, LaTeX, Ruby, PHP, SPSS
+  - Libraries: D3.js, Leaflet.js, ggplot2, Django, Rails, Postgres, MySql
+  - Operating Systems: Windows, Mac OS X, Linux, UNIX, Bash, Powershell
 
-   - CUNY GC Digital Fellow                                                 2014 - 2015
-   - Provost’s Digital Initiative grant winner, CUNY Graduate Center        2013 - 2014
-   - Steven and Elly Hammerman ethics across the curriculum, CUNY John Jay  2012
-   - US Cyberchallenge student fellow, Eastern Regional Camp (Virginia)     2011 & 2012
-   - DHS Data Science Summer fellow, Univ of Illinois, Urbanana-Champaigne  2010
-   - PhD fellowship, CUNY John Jay					   2009 - 2014
-   - Sunshine Scholarship, College Initiative			           2009 - 2014
+* Awards, Honors and Grants
+
+  - CUNY GC Digital Fellow                                                 2014 - 2015
+  - Provost’s Digital Initiative grant winner, CUNY Graduate Center        2013 - 2014
+  - Steven and Elly Hammerman ethics across the curriculum, CUNY John Jay  2012
+  - US Cyberchallenge student fellow, Eastern Regional Camp (Virginia)     2011 & 2012
+  - DHS Data Science Summer fellow, Univ of Illinois, Urbanana-Champaigne  2010
+  - PhD fellowship, CUNY John Jay					   2009 - 2014
+  - Sunshine Scholarship, College Initiative			           2009 - 2014
 
 
 
 
 
-   
+  

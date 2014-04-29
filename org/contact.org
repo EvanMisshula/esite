@@ -15,3 +15,4 @@ lead: How to find me and change the world together
   - Twitter: @EMisshula
   - Blog: https://mofj.commons.gc.cuny.edu/
   - Github: https://github.com/EvanMisshula
+  - LinkedIn: https://www.linkedin.com/pub/evan-misshula/20/5b/810
