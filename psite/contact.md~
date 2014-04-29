@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Evan's site
-excerpt: Intro to Evan
+title: Contact
+excerpt: How to find me
+label: contact
+id: contact
+lead: How to find me and change the world together
 ---
 -   Email: EMisshula(at)jjay(dot)cuny(dot)edu
 -   Twitter: @EMisshula

@@ -64,10 +64,10 @@ lead: Academic progress of Evan
 
 # Awards, Honors and Grants
 
--   CUNY GC Digital Fellow                                                 2014 - 2015
--   Provost’s Digital Initiative grant winner, CUNY Graduate Center        2013 - 2014
--   Steven and Elly Hammerman ethics across the curriculum, CUNY John Jay  2012
--   US Cyberchallenge student fellow, Eastern Regional Camp (Virginia)     2011 & 2012
--   DHS Data Science Summer fellow, Univ of Illinois, Urbanana-Champaigne  2010
+-   [CUNY GC Digital Fellow](https://digitalfellows.commons.gc.cuny.edu/about/mission/)                                                 2014 - 2015
+-   [Provost’s Digital Initiative](http://gcdi.commons.gc.cuny.edu/fellowships-grants/) grant winner, CUNY Graduate Center        2013 - 2014
+-   [Steven and Elly Hammerman ethics across the curriculum](http://johnjayresearch.org/cje/education/research-in-ethics-2012/), CUNY John Jay  2012
+-   [US Cyberchallenge student fellow](http://www.uscyberchallenge.org/), Eastern Regional Camp (Virginia)     2011 & 2012
+-   DHS Data Science Summer Fellow, Univ of Illinois, Urbanana-Champaigne  2010
 -   PhD fellowship, CUNY John Jay                                           2009 - 2014
 -   Sunshine Scholarship, College Initiative                                   2009 - 2014
