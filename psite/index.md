@@ -26,11 +26,11 @@ Pattern Recognition Lab directed by Robert [Haralick](http://haralick.org/).
 
 I mentor for the [College Initiative](http://www.collegeinitiative.org/ci2/), a project which helps people
 returning from prison access higher education.  Additionally, I
-serve on the Men's Advisory Board for the Prison Visiting Project
-of Corrections Association of New York as well as the Research
-Advisroy Board of NY Public Library. I am a member of the meetup
-groups NYC Open Data, NYC Python, Emacsnyc and the NYC Code for
-America Brigade.
+serve on the Men's Advisory Board for the [Prison Visiting Project](http://www.correctionalassociation.org/pp/about-pvp)
+of Corrections Association of New York as well as the [Research
+Advisory Board](http://stage.new.nypl.org/collections/research-advisory-group) of NY Public Library. I am a member of the meetup
+groups [Developers for good](http://developersforgood.org/), [NYC Open Data](http://www.meetup.com/NYC-Open-Data/), [NYC Python](http://www.meetup.com/nycpython/), [Emacsnyc](http://emacsnyc.org/) and
+[#BetaNYC](http://www.meetup.com/betanyc/), the NYC Code for America Brigade.
 
 ## Resume
 
@@ -40,9 +40,9 @@ Here is a link to my resume. ([EM](img/EM.pdf))
 
 I am interested in prisoner reentry and economic mobility broadly.
 
-## Publication
+## Publications
 
-Here is a link to my google scholar page [Scholar](http://scholar.google.com/citations?hl%3Den&user%3Df8E8wB0AAAAJ)
+Here is a link to my google [scholar](http://scholar.google.com/citations?hl%3Den&user%3Df8E8wB0AAAAJ) page. 
 
 ## Social media
 
@@ -50,3 +50,4 @@ Here is a link to my google scholar page [Scholar](http://scholar.google.com/cit
 -   Twitter: @EMisshula
 -   Blog: <https://mofj.commons.gc.cuny.edu/>
 -   Github: <https://github.com/EvanMisshula>
+-   LinkedIn: <https://www.linkedin.com/pub/evan-misshula/20/5b/810>

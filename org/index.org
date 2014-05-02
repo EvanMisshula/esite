@@ -26,20 +26,20 @@ lead: Bio of Evan
 ** Advocacy and charitable work
    I mentor for the [[http://www.collegeinitiative.org/ci2/][College Initiative]], a project which helps people
    returning from prison access higher education.  Additionally, I
-   serve on the Men's Advisory Board for the Prison Visiting Project
-   of Corrections Association of New York as well as the Research
-   Advisroy Board of NY Public Library. I am a member of the meetup
-   groups NYC Open Data, NYC Python, Emacsnyc and the NYC Code for
-   America Brigade.
+   serve on the Men's Advisory Board for the [[http://www.correctionalassociation.org/pp/about-pvp][Prison Visiting Project]]
+   of Corrections Association of New York as well as the [[http://stage.new.nypl.org/collections/research-advisory-group][Research
+   Advisory Board]] of NY Public Library. I am a member of the meetup
+   groups [[http://developersforgood.org/][Developers for good]], [[http://www.meetup.com/NYC-Open-Data/][NYC Open Data]], [[http://www.meetup.com/nycpython/][NYC Python]], [[http://emacsnyc.org/][Emacsnyc]] and
+   [[http://www.meetup.com/betanyc/][#BetaNYC]], the NYC Code for America Brigade.
 ** Resume
    Here is a link to my resume. ([[file:img/EM.pdf][EM]])
 ** Research Interests
    I am interested in prisoner reentry and economic mobility broadly.
-** Publication
-   Here is a link to my google scholar page [[http://scholar.google.com/citations?hl%3Den&user%3Df8E8wB0AAAAJ][Scholar]]
+** Publications
+   Here is a link to my google [[http://scholar.google.com/citations?hl%3Den&user%3Df8E8wB0AAAAJ][scholar]] page. 
 ** Social media
    - Email: EMisshula(at)jjay(dot)cuny(dot)edu
    - Twitter: @EMisshula
    - Blog: https://mofj.commons.gc.cuny.edu/
    - Github: https://github.com/EvanMisshula
-
+   - LinkedIn: https://www.linkedin.com/pub/evan-misshula/20/5b/810
