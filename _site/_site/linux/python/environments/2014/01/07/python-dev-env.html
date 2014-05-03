@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Python Dev Env</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+	  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+	  <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="screen" />	
+	  <link rel="stylesheet" href="/css/org.css" type="text/css" media="screen" />	
+	  <script src="/js/jquery-1.9.1.min.js"></script>
+	  <script src="/js/org-info.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+
+        <div class="site">
+            <div class="header">
+            <h1 class="title"><a href="/">Evan's site</a></h1>
+            <a class="extra" href="/Academic.html">Academic</a>
+
+	    
+	    <a class="extra" href="/jekyll/update/2014/04/25/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+	    
+	    <a class="extra" href="/linux/python/environments/2014/01/07/python-dev-env.html">Python Dev Env</a>
+	    
+
+            <a class="extra" href="/contact.html">contact</a>
+          </div>
+
+          <h2>Python Dev Env</h2>
+<p class="meta">07 Jan 2014</p>
+
+<div class="post">
+<p>Ubuntu: Set up a virtual environment with IPython, numpy and pandas
+Posted on January 20, 2014        </p>
+
+<p>So this is a much needed update for an earlier post on setting up a
+virtual environment. The original post was based on one I found
+<a href="http://technomilk.wordpress.com/2011/07/27/setting-up-our-django-site-environment-with-pythonbrew-and-virtualenv/">http://technomilk.wordpress.com/2011/07/27/setting-up-our-django-site-environment-with-pythonbrew-and-virtualenv/</a>. My prior post is <a href="http://mofj.commons.gc.cuny.edu/2013/06/25/setting-up-a-virtual-environment-with-ipython-numpy-and-pandas/">http://mofj.commons.gc.cuny.edu/2013/06/25/setting-up-a-virtual-environment-with-ipython-numpy-and-pandas/</a>. Most of the time you read about setting up virtual environments, it is in the context of web development. But the same benefits hold for analysis and research software. You want to be able to reproduce results. It also increases security not to be adding all
+the unverified libraries with root level privileges. This post is a
+minor modification of the outstanding tutorial I have been using for
+the last few months. There are three reasons why this needs to be updated:</p>
+
+<ul>
+<li>  there is another version of python</li>
+<li>  it does not cover IPython</li>
+<li>  pythonbrew which managed the versions of python is longer maintained</li>
+</ul>
+
+<p>I will repeat the steps here. First install the c libraries that python needs to function.</p>
+
+<p>I use apt-get in ubuntu so type</p>
+
+<p>$ cd ~</p>
+
+<p>$ sudo apt-get install libsqlite3-dev libbz2-dev libxml2-dev libxslt-dev curl</p>
+
+<p>Get a non-system version of python</p>
+
+<p>Then install the pyenv scripts from source. Here is the link for pyenv <a href="https://github.com/yyuu/pyenv#basic-github-checkout">https://github.com/yyuu/pyenv#basic-github-checkout</a>. Pyenv is in many ways more
+sophsticated than pythonbrew. It is written in <a href="http://en.wikipedia.org/wiki/Bash_shell">http://en.wikipedia.org/wiki/Bash_shell</a> not any particular version of python. The advantage is that it is not
+dependent on anything in the language itself. The disadvantage is that it is much harder
+to read the code and understand the nature of a bug. As my advisor always used to tell
+me there was nothing more brain-dead than a shell, I have spent most of my time avoiding them. I use the Bourne Again Shell that comes with Ubuntu. The syntax is tricky because everything is a string. Variable definitions can’t have any spaces. There are some good tutorials which I will include later. For now, here are three links that can tell you
+the differences between bash and an interpreted language like Python.</p>
+
+<ul>
+<li>  <a href="http://askubuntu.com/questions/110907/python-compared-to-bash">http://askubuntu.com/questions/110907/python-compared-to-bash</a></li>
+<li>  <a href="http://superuser.com/questions/414965/when-to-use-bash-and-when-to-use-perl-python-ruby">http://superuser.com/questions/414965/when-to-use-bash-and-when-to-use-perl-python-ruby</a></li>
+<li>  <a href="http://stackoverflow.com/questions/209470/can-i-use-python-as-a-bash-replacement">http://stackoverflow.com/questions/209470/can-i-use-python-as-a-bash-replacement</a></li>
+</ul>
+
+<p>I am assuming you have git installed. If not, <a href="https://www.digitalocean.com/community/articles/how-to-install-git-on-ubuntu-12-04">https://www.digitalocean.com/community/articles/how-to-install-git-on-ubuntu-12-04</a> is a good tutorial for installing git.</p>
+
+<p>$ cd ~
+$ git clone git://github.com/yyuu/pyenv.git .pyenv</p>
+
+<p>Define environment variable PYENV<sub>ROOT</sub> to point to the path where
+pyenv repo is cloned and add $PYENV<sub>ROOT</sub>/bin to your $PATH for access
+to the pyenv command-line utility.</p>
+
+<p>$ echo ‘export PYENV<sub>ROOT</sub>=”$HOME/.pyenv”‘ &gt;&gt; ~/.bashrc
+$ echo ‘export PATH=”$PYENV<sub>ROOT</sub>/bin:$PATH”‘ &gt;&gt; ~/.bashrc</p>
+
+<p>Add pyenv init to your shell to enable shims and autocompletion. Shims and binstubs are worth knowing about.  You can read up on them <a href="https://github.com/yyuu/pyenv#understanding-shims">https://github.com/yyuu/pyenv#understanding-shims</a>.</p>
+
+<p>$ echo ‘eval “$(pyenv init -)”‘ &gt;&gt; ~/.bashrc</p>
+
+<p>Restart your shell so the path changes take effect. You can now begin using pyenv.</p>
+
+<p>$ exec $SHELL</p>
+
+<p>Install Python versions into $PYENV<sub>ROOT</sub>/versions. For example, to install Python 2.7.5, download and unpack the source, then run:</p>
+
+<p>$ pyenv install 2.7.5
+$ pyenv rehash</p>
+
+<p>And now we have to tell the system to use this new version of python</p>
+
+<p>$ pyenv local 2.7.5</p>
+
+<p>Install virtualenv</p>
+
+<p>We are going to do two tricky things we are going to install
+virtualenv in the version of python AND install the pyenv plugin virtualenv.</p>
+
+<p>$ pip install virtualenv</p>
+
+<p>and to install the pyenv plugin.</p>
+
+<p>$ git clone git://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv</p>
+
+<p>You are now ready to create a virtual environment in a non-system version of python. I don’t understand why this will not work if you are anywhere else.</p>
+
+<p>$ cd ~/.pyenv/versions/2.7.5
+$ pyenv virtualenv</p>
+
+<p>We can list all of the virtual environments. Change directory to the
+one you want to work in and in my case the virtual environment is
+no-more-drug-war:</p>
+
+<p>$ pyenv shell no-more-drug-war:</p>
+
+<p>We can list the virtualenvs:</p>
+
+<p>$ pyenv virtualenvs
+dssg (created from /usr)
+lc (created from /usr)</p>
+
+<h1>no-more-drug-war (created from /usr)</h1>
+
+<p>scrp (created from /usr)
+seek (created from /usr)</p>
+
+<p>We can activate the virtual environment with the following command.</p>
+
+<p>$ pyenv activate no-more-drug-war</p>
+
+<p>You can deactivate the activate’d virtualenv by pyenv deactivate.</p>
+
+<p>$ pyenv deactivate</p>
+
+<p>So, in order to know what packages we have installed at any time, we install yolk.</p>
+
+<p>$ pip install yolk</p>
+
+<p>Do not type sudo! To see what it installed at any time:</p>
+
+<p>$ yolk -l</p>
+
+<p>A list of further packages for IPython are available here. Type these individually and they each may take a few minutes to install.</p>
+
+<p>$ pip install jinja2</p>
+
+<p>$ pip install pyzmq</p>
+
+<p>$ pip install pygments</p>
+
+<p>$ pip install tornado</p>
+
+<p>$ pip install nose</p>
+
+<p>$ pip install numpy</p>
+
+<p>$ pip install scipy</p>
+
+<p>$ pip install matplotlib</p>
+
+<p>$ pip install pandas</p>
+
+<p>$ pip install ipython</p>
+
+<p>Turning it on and off</p>
+
+<p>Now to get out of your virtual environment, just type</p>
+
+<p>$ pyenv deactivate</p>
+
+<p>To get back in, type:</p>
+
+<p>$ pyenv activate no-more-drug-war</p>
+
+<p>Good luck!</p>
+
+<p>I will try to send a pull request to add some of this to pyenv and correct my question on stack overlfow.</p>
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Evan Misshula<br />
+                student, data scientist, activist<br />
+                EMisshula(at)jjay(dot)cuny(dot)edu
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/EvanMisshula">github.com/EvanMisshula</a><br />
+                <a href="https://twitter.com/EMisshula">twitter.com/EMisshula</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
